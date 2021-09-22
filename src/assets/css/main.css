@@ -87,6 +87,7 @@ body {
   font-family: var(--bodyFont);
   font-weight: 400;
   line-height: 1.75;
+  
 }
 
 p {
@@ -352,7 +353,7 @@ form > *:last-child {
   align-items: center;
 }
 .nav-header img {
-  width: 200px;
+  width: 130px;
   margin-left: -6px;
   margin-bottom: -9px;
 }

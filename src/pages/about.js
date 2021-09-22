@@ -23,7 +23,7 @@ const About = () => {
             </Link>
           </article>
           <StaticImage
-            src="https://raw.githubusercontent.com/john-smilga/gatsby-v3-tutorial-recipes/main/src/assets/images/about.jpeg"
+            src="../assets/images/salad.jpg"
             alt="Person Pouring Salt in Bowl"
             className="about-img"
             placeholder="blurred"
