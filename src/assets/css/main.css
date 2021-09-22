@@ -42,6 +42,7 @@
   --white: #fff;
   --red-light: #f8d7da;
   --red-dark: #842029;
+  --red-dark: #ba696f;
   --green-light: #d1e7dd;
   --green-dark: #0f5132;
   /* box shadows */
@@ -196,7 +197,8 @@ button,
   cursor: pointer;
   appearance: none;
   color: var(--white);
-  background: var(--primary-500);
+  background-color: var(--red-dark);
+  /* background: var(--primary-500); */
   border: none;
   border-radius: var(--borderRadius);
   letter-spacing: var(--letterSpacing);
@@ -208,7 +210,8 @@ button,
 button:hover,
 .btn:hover {
   color: var(--white);
-  background: var(--primary-700);
+  background-color: var(--red-dark);
+  /* background: var(--primary-700); */
   box-shadow: var(--shadow-2);
 }
 button.small {
@@ -386,7 +389,8 @@ form > *:last-child {
   transition: var(--transition);
 }
 .active-link {
-  color: var(--primary-500);
+  color: var(--red-dark)
+  /* var(--primary-500); */
 }
 .contact-link {
   display: flex;
@@ -453,7 +457,8 @@ form > *:last-child {
 }
 .page-footer span,
 .page-footer a {
-  color: var(--primary-500);
+  color: var(--red-dark)
+  /* color: var(--primary-500); */
 }
 
 /*#########*/
