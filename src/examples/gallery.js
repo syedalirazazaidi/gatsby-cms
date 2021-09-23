@@ -11,8 +11,9 @@ const query = graphql`
           gatsbyImageData(
             layout: FIXED
             placeholder: BLURRED
-            width: 200
-            height: 200
+            transformOptions: { grayscale: true }
+            width: 240
+            height: 240
           )
         }
       }
@@ -23,6 +24,7 @@ const query = graphql`
 const Gallery = () => {
   const data = useStaticQuery(query)
   const nodes = data.allFile.nodes
+  console.log(nodes, "ooooooooooo")
   return (
     <Wrapper>
       {nodes.map((image, index) => {

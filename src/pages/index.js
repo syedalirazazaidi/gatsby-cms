@@ -11,7 +11,7 @@ const Home = () => {
       <main className="page">
         <header className="hero">
           <StaticImage
-            src="../assets/images/main.jpg"
+            src="../assets/images/vegetable.jpg"
             alt="eggs"
             className="hero-img"
             placeholder="tracedSVG"
