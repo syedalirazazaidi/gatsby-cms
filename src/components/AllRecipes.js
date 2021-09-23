@@ -25,10 +25,8 @@ const AllRecipes = () => {
   const recipes = data.allContentfulRecepe.nodes
 
   return (
-    <section
-    // className="recipes-container"
-    >
-      {/* <TagsList recipes={recipes} /> */}
+    <section className="recipes-container">
+      <TagsList recipes={recipes} />
       <RecipesList recipes={recipes} />
     </section>
   )

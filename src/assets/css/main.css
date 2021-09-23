@@ -593,7 +593,7 @@ form > *:last-child {
   transition: var(--transition);
 }
 .tags-list a:hover {
-  color: var(--primary-500);
+  color: var(--red-dark);
 }
 .recipe {
   display: block;
@@ -676,7 +676,7 @@ form > *:last-child {
   padding: 0.75rem 0;
 }
 .tag:hover {
-  background: var(--primary-500);
+  background: var( --red-dark);
 }
 .tag h5,
 .tag p {
@@ -736,7 +736,7 @@ form > *:last-child {
   font-weight: 600;
 }
 .recipe-tags a {
-  background: var(--primary-500);
+  background: var(--red-dark);
   border-radius: var(--borderRadius);
   color: var(--white);
   padding: 0.05rem 0.5rem;
@@ -768,7 +768,7 @@ form > *:last-child {
 .single-instruction header p {
   text-transform: uppercase;
   font-weight: 600;
-  color: var(--primary-500);
+  color: var(--red-dark);
   margin-bottom: 0;
 }
 
@@ -789,6 +789,6 @@ form > *:last-child {
 .single-tool {
   border-bottom: 1px solid var(--grey-500);
   padding-bottom: 0.75rem;
-  color: var(--primary-500);
+  color: var(--red-dark);
   text-transform: capitalize;
 }

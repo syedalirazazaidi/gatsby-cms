@@ -9,7 +9,6 @@ const About = ({
     allContentfulRecepe: { nodes: recipes },
   },
 }) => {
-  console.log(recipes, "{{}}")
   return (
     <Layout>
       <main className="page">
