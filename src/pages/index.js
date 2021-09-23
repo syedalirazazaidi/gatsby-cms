@@ -5,6 +5,7 @@ import Layout from "../components/Layout"
 import { StaticImage } from "gatsby-plugin-image"
 import FetchData from "../examples/fetchData"
 import Gallery from "../examples/gallery"
+import AllRecipes from "../components/AllRecipes"
 const Home = () => {
   return (
     <Layout>
@@ -16,9 +17,7 @@ const Home = () => {
             className="hero-img"
             placeholder="tracedSVG"
             layout="fullWidth"
-          />
-
-          {/* </StaticImage> */}
+          ></StaticImage>
           <div className="hero-container">
             <div className="hero-text">
               <h1>simply recipes</h1>
@@ -26,9 +25,7 @@ const Home = () => {
             </div>
           </div>
         </header>
-        <FetchData />
-        <Gallery />
-        {/* <AllRecipes /> */}
+        <AllRecipes />
       </main>
     </Layout>
   )
