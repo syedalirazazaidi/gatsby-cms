@@ -6,9 +6,11 @@ import { StaticImage } from "gatsby-plugin-image"
 import FetchData from "../examples/fetchData"
 import Gallery from "../examples/gallery"
 import AllRecipes from "../components/AllRecipes"
+import SEO from "../components/SEO"
 const Home = () => {
   return (
     <Layout>
+      <SEO title="Home Page" />
       <main className="page">
         <header className="hero">
           <StaticImage
