@@ -6,7 +6,6 @@ import Layout from "../components/Layout"
 
 const TagTemplate = ({ data, pageContext }) => {
   const recipes = data.allContentfulRecepe.nodes
-  console.log(recipes, "[[[[[[[[[[[[[[[[[")
   return (
     <Layout>
       {/* <SEO title={pageContext.tag} /> */}

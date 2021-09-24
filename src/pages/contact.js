@@ -1,9 +1,10 @@
 import React from "react"
-
+import { StaticImage } from "gatsby-plugin-image"
+import { Link, graphql } from "gatsby"
 import Layout from "../components/Layout"
 import RecipesList from "../components/RecipesList"
-const contact = ({ data }) => {
-  const recipes = data.allContentfulRecipe.nodes
+const Contact = ({ data }) => {
+  const recipes = data.allContentfulRecepe.nodes
   return (
     <Layout>
       <main className="page">
@@ -21,7 +22,11 @@ const contact = ({ data }) => {
             </p>
           </article>
           <article>
-            <form className="form contact-form">
+            <form
+              className="form contact-form"
+              action="https://formspree.io/f/mvodlnrb"
+              method="POST"
+            >
               <div className="form-row">
                 <label htmlFor="name">your name</label>
                 <input type="text" name="name" id="name" />
@@ -42,7 +47,6 @@ const contact = ({ data }) => {
         </section>
         <section className="featured-recipes">
           <h5>Look at this Awesomesouce!</h5>
-
           <RecipesList recipes={recipes} />
         </section>
       </main>
@@ -68,4 +72,4 @@ export const query = graphql`
   }
 `
 
-export default contact
+export default Contact
